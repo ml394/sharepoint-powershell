@@ -2,8 +2,8 @@
 
 Param(
     [Parameter(Mandatory=$true)] [string]$rootURL,
-    [integer]$notifyDays=3,
-    [integer]$autocompleteDays=7
+    [int]$notifyDays=3,
+    [int]$autocompleteDays=7
 )
 
 Add-PSSnapin Microsoft.SharePoint.PowerShell
